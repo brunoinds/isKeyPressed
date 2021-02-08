@@ -22,6 +22,3 @@ class KeyPressing{
     }
 }
 KeyPressing._init();
-setInterval(() => {
-    console.log(KeyPressing.isKeyPressed(13));
-}, 1000)
