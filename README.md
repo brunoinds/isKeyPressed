@@ -40,3 +40,6 @@ You can access a list of keyCodes in this link: http://gcctech.org/csc/javascrip
 ## How it works
 isKeyPressed uses a eventListener to watch when a key is being pressed and released (`keydown`, `keyup`). When a key is pressed, the event is fired and isKeyPressed add the key to an array with all the others keys being pressed. When some key is released, the keyup event is fired and it removes the key from the pressed keys array. With that algorithm, you can call anytime with a key is being pressed.
 **We DO NOT use any `Interval` or `Timeout` to verify if the key is being pressed. It's only eventListener based algorithm.**
+
+## Dependencies
+No dependencies!
